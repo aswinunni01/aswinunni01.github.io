@@ -6,6 +6,11 @@
   height: 16px;
   margin-top: 1px;
 }
+.top-arrow-icon {
+  width: 16px;
+  height: 16px;
+  margin-top: 15px;
+}
 
 .footer-icon {
   width: 20px;
@@ -35,7 +40,6 @@ a.icon-link:hover {
   position: fixed;
   top: 0;
   left: 0;
-  background-color : white
 }
 
 .nav-title-link {
@@ -57,7 +61,23 @@ a.icon-link:hover {
 
 
 /* Button Styling */
-
+.button {
+  padding: 8px 16px;
+  border: 3px solid #141414;
+  border-radius: 50px;
+  color: black;
+  text-decoration: none;
+  width: fit-content;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  background: none;
+}
+.button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
 a.button {
   padding: 8px 16px;
   border: 3px solid #141414;

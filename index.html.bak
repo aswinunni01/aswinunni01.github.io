@@ -39,7 +39,10 @@
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
-
+	<div class="button" onclick="topFunction()" id="scrollbtn">
+		<span class="button-text">Top</span>
+		<image src="./assets/icons/arrow-up.svg" class="top-arrow-icon"/>
+	</div>
       <!-- PORTFOLIO HEADER -->
       <div id="portfolio-header">
         <div id="portfolio-header-image-container">
@@ -85,7 +88,7 @@
       <div id="about-section">
         <span class="subheader-text">My Background / About Me</span>
         <div class="about-section-content">
-          <div class="body-text">In 2022, I completed my graduation from the National Institute of Technology, Calicut. I'm a software engineer with a strong passion for Linux, virtualization technologies, and cloud computing. I've been actively engaged with Oracle Cloud Infrastructure in their Infrastructure as a Service (IaaS) division. Within my team, we oversee the hardware, virtualization, and Virtual Machine Monitor (VMM) stack that hosts OCI Virtual Machines. Our primary responsibility is to guarantee that OCI customers can run their workloads with minimal disruptions and optimal efficiency. </div>
+          <div class="body-text">In 2022, I completed my graduation from the National Institute of Technology, Calicut. I'm a software engineer with a strong passion for <b>Linux</b>, <b>virtualization technologies</b>, and <b>cloud computing</b>. I've been actively engaged with Oracle Cloud Infrastructure in their Infrastructure as a Service (IaaS) division. Within my team, we oversee the hardware, virtualization, and Virtual Machine Monitor (VMM) stack that hosts OCI Virtual Machines. Our primary responsibility is to guarantee that OCI customers can run their workloads with minimal disruptions and optimal efficiency. </div>
           <div class="body-text">Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut.</div>
         </div>
       </div>
