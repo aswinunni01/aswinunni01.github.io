@@ -27,7 +27,7 @@
 	<body>
     <!-- NAVBAR -->
     <div id="navbar" class="navbar">
-	<div class="nav-hamburger" id="nav-hamburger"  onclick="navHamburger(this)">
+	<div class="nav-hamburger" onclick="navHamburger(this)">
 	<div class="nav-hamburger-bar-1"></div>
 	<div class="nav-hamburger-bar-2"></div>
 	<div class="nav-hamburger-bar-3"></div>
