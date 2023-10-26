@@ -4,6 +4,6 @@ if (document.getElementById('my-work-link')) {
   })
 }
 addEventListener("scroll", (event) => {
-	document.getElementById('navbar').style.opacity=1-document.documentElement.scrollTop/400
+	document.getElementById('navbar').style.opacity=1-document.documentElement.scrollTop/250
 	
 });
