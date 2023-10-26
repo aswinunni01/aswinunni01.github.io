@@ -9,7 +9,7 @@
 .top-arrow-icon {
   width: 16px;
   height: 16px;
-  margin-top: 15px;
+  margin-top: 1px;
 }
 
 .footer-icon {
@@ -118,6 +118,48 @@ a.no-underline:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+.nav-hamburger {
+  display: inline-block;
+  cursor: pointer;
+}
+.nav-hamburger-bar-1, .nav-hamburger-bar-2, .nav-hamburger-bar-3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .nav-hamburger-bar-1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .nav-hamburger-bar-2 {opacity: 0;}
+
+/* Rotate last bar */
+.change .nav-hamburger-bar-3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.nav-hamburger #myLinks {
+  display: none;
+}
+
+.nav-hamburger #myLinks {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.nav-hamburger a {
+	padding : 10px
+}
+
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
