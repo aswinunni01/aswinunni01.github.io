@@ -1,8 +1,9 @@
-if (document.getElementById('my-work-link')) {
-  document.getElementById('my-work-link').addEventListener('click', () => {
-    document.getElementById('my-work-section').scrollIntoView({behavior: "smooth"})
-  })
-}
+let blog_buttons = document.querySelectorAll('.my-work-link')
+blog_buttons.forEach(button => {
+
+	button.addEventListener('click', ()=> { document.getElementById('my-work-section').scrollIntoView({behavior:"smooth"})})
+})
+
 addEventListener("scroll", (event) => {
 	document.getElementById('navbar').style.opacity=1-document.documentElement.scrollTop/400
 	
