@@ -249,7 +249,7 @@
       
         This should be the same across all pages.
       -->
-      <a class="icon-link" target="_blank" href="//index.html">
+      <a class="icon-link" target="_blank" href="./index.html">
         <image src="./assets/icons/twitter.svg" class="footer-icon"/>
       </a>
       <!-- 
