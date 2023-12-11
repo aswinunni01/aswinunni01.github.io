@@ -34,8 +34,8 @@
 	<div class="nav-hamburger-bar-3"></div>
 	<div id="myLinks">
 		<a class="my-work-link" href="#blogs">Blogs</a>
-		<a href="#projects">Projects</a>
-		<a href="#experience">Experience</a>
+		<a class="my-project-link" href="#projects">Projects</a>
+		<a class="my-work-link" href="#experience">Experience</a>
 		
 	</div>
 	</div>
@@ -143,17 +143,17 @@
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
           </div>
-          <!-- <div class="project-card"> -->
-            <!-- <img src="./assets/images/code.jpeg" class="project-image"> -->
-            <!-- <div class="project-card-text-container"> -->
-              <!-- <div class="subheader-text project-title">Project Name</div> -->
-              <!-- <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div> -->
-            <!-- </div> -->
-            <!-- <a class="button" href="./project-pages/project-template.html"> -->
-              <!-- <span class="button-text">Read More</span> -->
-              <!-- <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/> -->
-            <!-- </a> -->
-          <!-- </div> -->
+          <div class="project-card">
+            <img src="./assets/images/code.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">QEMU Basics</div>
+              <div class="body-text project-card-text">This blog helps you understand the different components of QEMU and how QEMU can be used to create and manage virtual machines.</div>
+            </div>
+            <a class="button" href="./project-pages/qemu_basics.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
           <!-- <div class="project-card"> -->
             <!-- <img src="./assets/images/sketchbook.jpeg" class="project-image"> -->
             <!-- <div class="project-card-text-container"> -->
@@ -169,7 +169,7 @@
       </div>
 	  
 	  <!-- PROJECTS / MY WORK SECTION -->
-      <div id="my-work-section">
+      <div id="my-project-section">
         <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
         <span class="subheader-text">My Projects</span>
 
@@ -197,7 +197,7 @@
                 - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
           -->
           <div class="project-card">
-            <img src="./assets/images/cloud-asset.jpg" class="project-image">
+            <img src="./assets/images/library.jpg" class="project-image">
             <div class="project-card-text-container">
               <div class="subheader-text project-title">Digital Library Issue server</div>
               <div class="body-text project-card-text">Issue server is a React + Django web application developed for the Digital Library of NIT Calicut. It helps Library administrators keep track of the book inventory and integrates with Koha - an open source Library Management system.</div>

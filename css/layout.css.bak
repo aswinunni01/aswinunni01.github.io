@@ -82,10 +82,6 @@ body {
   z-index: 99; /* Make sure it does not overlap */
 }
 
-#scrollbtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
-}
-
 
 /* Project Section */
 

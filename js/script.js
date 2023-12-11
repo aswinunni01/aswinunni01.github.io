@@ -4,6 +4,12 @@ blog_buttons.forEach(button => {
 	button.addEventListener('click', ()=> { document.getElementById('my-work-section').scrollIntoView({behavior:"smooth"})})
 })
 
+let project_buttons = document.querySelectorAll('.my-project-link')
+project_buttons.forEach(button => {
+
+	button.addEventListener('click', ()=> { document.getElementById('my-project-section').scrollIntoView({behavior:"smooth"})})
+})
+
 addEventListener("scroll", (event) => {
 	document.getElementById('navbar').style.opacity=1-document.documentElement.scrollTop/400
 	
