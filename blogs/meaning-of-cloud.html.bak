@@ -100,6 +100,7 @@
 		  <div class="body-text">The low level services form the core of any cloud platform. The next most important services are monitoring tools, Orchestration services and Optimization services. These services are aimed to simplify operations for customers adopting the cloud and managing infrastructure at scale. Furthermore cloud companies release a variety of SaaS services and AI services that integrate with their cloud platform.</div> 
 		<div class="subheader-text">Summary</div>
 		  <div class="body-text">The backbone of any cloud company is it's infrastructure. The most difficult part in Cloud optimization is infrastructure optimization. I hope this blog helped to demistify the concept of cloud computing, and you realise that at the end of the day, cloud is not very complex. It is a very simple idea of abstracting hardware details from customers.</div> 
+		  <div class="body-text"><i>Written by Aswin Unnikrishnan. 11/12/2023</i></div> 
 
       </div>
 

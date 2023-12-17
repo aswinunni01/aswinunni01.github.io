@@ -64,7 +64,7 @@
             - Change the number to point to your Unemployable & replace the OpenSea link with your own
             - If you aren't using an Unemployable as your image, remove the entire "a" element
           -->
-          <img src="./assets/images/bitmoji_aswin.jpg" class="portfolio-header-image">
+          <img src="./assets/images/IMG_0730.png" class="portfolio-header-image">
           <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
             <span class="image-caption"></span>
           </a>
@@ -143,13 +143,24 @@
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
           </div>
+		<div class="project-card">
+            <img src="./assets/images/server.jpg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Introduction to virtualization</div>
+              <div class="body-text project-card-text">Here I talk about the basics of virtualization and hypervisors.</div>
+            </div>
+            <a class="button" href="./blogs/introduction_to_virtualization.html">
+              <span class="button-text">Read More</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
           <div class="project-card">
             <img src="./assets/images/code.jpeg" class="project-image">
             <div class="project-card-text-container">
               <div class="subheader-text project-title">QEMU Basics</div>
               <div class="body-text project-card-text">This blog helps you understand the different components of QEMU and how QEMU can be used to create and manage virtual machines.</div>
             </div>
-            <a class="button" href="./project-pages/qemu_basics.html">
+            <a class="button" href="./blogs/qemu_basics.html">
               <span class="button-text">Read More</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
