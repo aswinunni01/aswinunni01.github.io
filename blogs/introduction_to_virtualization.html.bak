@@ -76,8 +76,9 @@
 			<div class="subheader-text">Why Virtualization</div>
 			<div class="project-details-content"> 
 			 <div class="body-text">Before talking about what is virtualization, lets understand why there is a need for virtualization. All software systems need hardware resources for computation - CPU, Memory and Disk. Consider your home setup where you have a single desktop that needs to be shared between you and your sister. Either you both could use the same Operating System and the same user and all your data would be transparent to each other. One way to improve privacy would be to use different users, but it still lets your sister wipe your entire drive if she wanted to. Another way would be to install a "Hypervisor" on your desktop and create two Virtual Machines for each person. Each Virtual Machine runs its own operating system, you and you sibling are free to install the OS of your choice. The Hypervisor, is a piece of software that manages the Virtual Machines and ensures privacy by letting each Virtual Machine only access the restricted share of hardware that it is configured to use. Lets say, tomorrow your sister gets her own laptop. Well, it will take less than a few minutes to completely tear down her Virtual Machine and allocate those extra resources to your machine. What if your dad then asks for access to the desktop? Easy, create one VM for him!</div>
-			 <div class="body-text">So, my point is, virtualization gives us a lot of benefits when managing hardware, IF it is used right. It helps in : 
+			 <div class="body-text">From a software engineering standpoint, a lot of applications still do not scale up well(adding CPU, memory, etc.) - they cannot be parallelized. That means, if an application cannot use all the resources at its disposal, a server is going to have a lot of unused compute resources. Having multiple VMs on the hardware running its own OS and processes can make use of hardware more efficiently. So, my point is, virtualization gives us a lot of benefits when managing hardware, IF it is used right. It helps in : 
 			 <ol>
+			 <li> More efficient use of hardware resources
 			 <li> Ensuring privacy between different software components running on the same hardware
 			 <li> Flexible allocation of hardware resources among multiple software systems on the same hardware
 			 <li> Creating and destroying and recreating machines easily.
@@ -88,6 +89,12 @@
 			<div class="subheader-text">Hypervisor / Virtual Machine Manager (VMM)</div>
 			<div class="project-details-content"> 
 			 <div class="body-text">As the name suggests, Hypervisor or Virtual Machine Manager is a piece of software that is responsible for managing and controlling virtual machines. It is responsible for managing hardware resources across VMs, ensuring data and hardware privacy, managing the lifecycle of virtual machines and so on. One important task of the hypervisor is how efficiently it can handle IO and Memory access of all the VMs while maintaining data integrity.</div>
+			 </div>
+			 
+			 
+			<div class="subheader-text">References</div>
+			<div class="project-details-content"> 
+			 <div class="body-text">If you are interested to learn more about Virtualization, KVM and QEMU, I highly recomment reading "Mastering KVM Virtualization". </div>
 		</div>
       
       </div>
@@ -155,7 +162,7 @@
 
         This should be the same across all pages.
       -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+      <a class="icon-link" target="_blank" href="https://instagram.com/_.a.s.w.i.n_u.n.n.i._?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
         <image src="../assets/icons/instagram.svg" class="footer-icon"/>
       </a>
       <!-- 
@@ -163,7 +170,7 @@
       
         This should be the same across all pages.
       -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+      <a class="icon-link" target="_blank" href="https://twitter.com/aswin_unni01">
         <image src="../assets/icons/twitter.svg" class="footer-icon"/>
       </a>
       <!-- 
@@ -171,7 +178,7 @@
       
         This should be the same across all pages.
       -->
-      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
+      <a class="icon-link" href="mailto:aswinunni01@gmail.com">
         <image src="../assets/icons/mail.svg" class="footer-icon"/>
       </a>
     </div>
