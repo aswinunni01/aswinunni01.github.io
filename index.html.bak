@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="google-site-verification" content="-xx63nQU8bYs5g4qpSP_lr_DyBRpPxadUZS3BzqXFyg" />
-		<meta name="description" content="Portfolio of a programmer">
+		<meta name="description" content="A software engineer graduated from NIT Calicut in 2022. I currently work as a Member of Technical Staff at Oracle Cloud Virtual Machine Infrastructure. I am deeply fond of linux and virtualization technologies.">
 		<meta name="author" content="Aswin Unnikrishnan">
 		<meta name="keywords" content="Aswin Unnikrishnan">
     <link rel="icon" href="./assets/images/1311.png" />
@@ -130,10 +130,11 @@
             </a>
           </div>
     </div>
-
+	</div>
 	
     <!-- FOOTER -->
     <div id="footer">
+		 <div class="body-text project-card-text">Thanks to @ndoherty-xyz for the website template.</div>
       <a class="icon-link" target="_blank" href="https://instagram.com/_.a.s.w.i.n_u.n.n.i._?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
         <image src="./assets/icons/instagram.svg" class="footer-icon"/>
       </a>
