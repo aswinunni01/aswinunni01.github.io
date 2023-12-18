@@ -144,7 +144,10 @@
       <a class="icon-link" href="mailto:aswinunni01@gmail.com">
         <image src="./assets/icons/mail.svg" class="footer-icon"/>
       </a>
-    </div>
+	<a class="icon-link" href="https://www.linkedin.com/in/aswinunn">
+        <image src="./assets/icons/linkedin.svg" class="footer-icon"/>
+      </a>
+	  </div>
 
 	</body>
 </html>
