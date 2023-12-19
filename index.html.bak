@@ -31,7 +31,7 @@
 	</div>
       <a class="nav-title-link" href="./index.html">
         <span class="nav-title">Aswin Unnikrishnan</span>
-        <a class="button" href="mailto:aswinunni01@gmail.com">
+        <a class="button" href="https://www.linkedin.com/in/aswinunni">
           <span class="button-text">Contact Me</span>
         </a>
       </a>
@@ -144,7 +144,7 @@
       <a class="icon-link" href="mailto:aswinunni01@gmail.com">
         <image src="./assets/icons/mail.svg" class="footer-icon"/>
       </a>
-	<a class="icon-link" href="https://www.linkedin.com/in/aswinunn">
+	<a class="icon-link" href="https://www.linkedin.com/in/aswinunni">
         <image src="./assets/icons/linkedin.svg" class="footer-icon"/>
       </a>
 	  </div>
