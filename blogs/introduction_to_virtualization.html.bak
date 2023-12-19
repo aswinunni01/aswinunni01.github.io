@@ -69,7 +69,7 @@
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
         <div class="main-title">Introduction to Virtualization</div>
-        <div class="body-text">If you managed to reach this blog page hosted at the middle of nowhere, then I am pretty sure you must have used or atleast heard about a "Virtual Machine" at some point in your life. Virtualization is one of the core technologies that drives todays world of Information Technology. The concept of virtualization is not new. Engineers have been trying to nail this technology since 1960s and 1970s, starting with IBM Mainframes, and even today in 2023, it is an area with a lot of effort being invested into. 
+        <div class="body-text">If you managed to reach this blog page hosted in the middle of nowhere, then I am pretty sure you must have used or atleast heard about a "Virtual Machine" at some point in your life. Virtualization is one of the core technologies that drives todays world of Information Technology. The concept of virtualization is not new. Engineers have been trying to nail this technology since 1960s and 1970s, starting with IBM Mainframes, and even today in 2023, it is an area with a lot of effort being invested into. 
 		</div>
 		
 		<div id="project-details">
@@ -94,7 +94,7 @@
 			 
 			<div class="subheader-text">References</div>
 			<div class="project-details-content"> 
-			 <div class="body-text">If you are interested to learn more about Virtualization, KVM and QEMU, I highly recomment reading "Mastering KVM Virtualization". </div>
+			 <div class="body-text">If you are interested to learn more about Virtualization, KVM and QEMU, I highly recommend reading "Mastering KVM Virtualization". </div>
 		</div>
       
       </div>
