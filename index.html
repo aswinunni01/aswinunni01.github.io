@@ -1,65 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="google-site-verification" content="-xx63nQU8bYs5g4qpSP_lr_DyBRpPxadUZS3BzqXFyg" />
-		<meta name="description" content="A software engineer graduated from NIT Calicut in 2022. I currently work as a Member of Technical Staff at Oracle Cloud Virtual Machine Infrastructure. I am deeply fond of linux and virtualization technologies.">
-		<meta name="author" content="Aswin Unnikrishnan">
-		<meta name="keywords" content="Aswin Unnikrishnan">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="google-site-verification"
+      content="-xx63nQU8bYs5g4qpSP_lr_DyBRpPxadUZS3BzqXFyg"
+    />
+    <meta
+      name="description"
+      content="A software engineer graduated from NIT Calicut in 2022. I currently work as a Member of Technical Staff at Oracle Cloud Virtual Machine Infrastructure. I am deeply fond of linux and virtualization technologies."
+    />
+    <meta name="author" content="Aswin Unnikrishnan" />
+    <meta name="keywords" content="Aswin Unnikrishnan" />
     <link rel="icon" href="./assets/images/1311.png" />
-		<title>Aswin Unnikrishnan</title>
-		<link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/typography.css">
-    <link rel="stylesheet" href="./css/utilities.css">
+    <title>Aswin Unnikrishnan</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/typography.css" />
+    <link rel="stylesheet" href="./css/utilities.css" />
 
-		<script defer src="./js/script.js"></script>
-	</head>
-	<body>
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
     <!-- NAVBAR -->
     <div id="navbar" class="navbar">
-	<div class="nav-hamburger" onclick="navHamburger(this)">
-	<div class="nav-hamburger-bar-1"></div>
-	<div class="nav-hamburger-bar-2"></div>
-	<div class="nav-hamburger-bar-3"></div>
-	<div id="myLinks">
-		<a class="my-work-link" href="#blogs">Blogs</a>
-		<a class="my-project-link" href="#projects">Projects</a>
-		<a class="my-work-link" href="#experience">Experience</a>
-		
-	</div>
-	</div>
+      <div class="nav-hamburger" onclick="navHamburger(this)">
+        <div class="nav-hamburger-bar-1"></div>
+        <div class="nav-hamburger-bar-2"></div>
+        <div class="nav-hamburger-bar-3"></div>
+        <div class="nav-hamburger-links">
+          <a id="my-work-link" href="#blogs">Blogs</a>
+          <a id="my-project-link" href="#projects">Projects</a>
+          <a id="my-work-link" href="#experience">Experience</a>
+        </div>
+      </div>
       <a class="nav-title-link" href="./index.html">
         <span class="nav-title">Aswin Unnikrishnan</span>
-        <a class="button" href="https://www.linkedin.com/in/aswinunni">
-          <span class="button-text">Contact Me</span>
-        </a>
+      </a>
+
+      <a class="button" href="https://www.linkedin.com/in/aswinunni">
+        <span class="button-text">Contact Me</span>
       </a>
     </div>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
-	<div class="button" onclick="topFunction()" id="scrollbtn">
-		<image src="./assets/icons/arrow-up.svg" class="top-arrow-icon"/>
-	</div>
+      <div class="button" onclick="topFunction()" id="scrollbtn">
+        <img
+          alt="top-arrow"
+          src="./assets/icons/arrow-up.svg"
+          class="top-arrow-icon"
+        />
+      </div>
       <!-- PORTFOLIO HEADER -->
       <div id="portfolio-header">
         <div id="portfolio-header-image-container">
-        
-          <img src="./assets/images/IMG_0730.jpg" class="portfolio-header-image">
-          <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
+          <img
+            alt="Aswin Unnikrishnan"
+            src="./assets/images/IMG_0730.jpg"
+            class="portfolio-header-image"
+          />
+          <a
+            class="no-underline"
+            target="_blank"
+            href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311"
+          >
             <span class="image-caption"></span>
           </a>
         </div>
         <div id="portfolio-header-text-container">
-            <div class="header-text">
-              <span class="main-title">Hey, I'm @aswinunni01.</span>
-              <div class="body-text">I’m a software engineer who loves working with linux systems, virtualization and hypervisors.</div>
+          <div class="header-text">
+            <span class="main-title">Hey, I'm @aswinunni01.</span>
+            <div class="body-text">
+              I’m a software engineer who loves working with linux systems,
+              virtualization and hypervisors.
             </div>
-            <a class="button my-work-link">
-              <span class="button-text">Check out my blogs</span> 
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
+          </div>
+          <a class="button my-work-link">
+            <span class="button-text">Check out my blogs</span>
+            <img
+              alt="right-arrow"
+              src="./assets/icons/arrow-right.svg"
+              class="right-arrow-icon"
+            />
+          </a>
         </div>
       </div>
 
@@ -67,8 +91,23 @@
       <div id="about-section">
         <span class="subheader-text">My Background / About Me</span>
         <div class="about-section-content">
-          <div class="body-text">In 2022, I completed my graduation from the National Institute of Technology, Calicut. I'm a software engineer with a strong passion for <b>Linux</b>, <b>virtualization technologies</b>, and <b>cloud computing</b>. I've been actively engaged with Oracle Cloud Infrastructure in our Infrastructure as a Service (IaaS) division. Within my team, we oversee the hardware, virtualization, and Virtual Machine Monitor (VMM) stack that hosts OCI Virtual Machines. Our primary responsibility is to guarantee that OCI customers can run their workloads with minimal disruptions and optimal efficiency. </div>
-          <div class="body-text">I am a huge Formula1 enthusiast, I love playing music and writing blogs. I believe that the path to success is making small steps of progress every day. I will keep my blogs short and sweet, with the hope that it helps the reader learn something new as well! </div>
+          <div class="body-text">
+            In 2022, I completed my graduation from the National Institute of
+            Technology, Calicut. I'm a software engineer with a strong passion
+            for <b>Linux</b>, <b>virtualization technologies</b>, and
+            <b>cloud computing</b>. I've been actively engaged with Oracle Cloud
+            Infrastructure in our Infrastructure as a Service (IaaS) division.
+            Within my team, we oversee the hardware, virtualization, and Virtual
+            Machine Monitor (VMM) stack that hosts OCI Virtual Machines. Our
+            primary responsibility is to guarantee that OCI customers can run
+            their workloads with minimal disruptions and optimal efficiency.
+          </div>
+          <div class="body-text">
+            I am a huge Formula1 enthusiast, I love playing music and writing
+            blogs. I believe that the path to success is making small steps of
+            progress every day. I will keep my blogs short and sweet, with the
+            hope that it helps the reader learn something new as well!
+          </div>
         </div>
       </div>
 
@@ -78,76 +117,120 @@
 
         <div class="projects-container">
           <div class="project-card">
-            <img src="./assets/images/cloud-asset-low.jpg" class="project-image">
+            <img
+              src="./assets/images/ai.jpg"
+              class="project-image"
+            />
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Meaning of Cloud</div>
-              <div class="body-text project-card-text">De mistifying the concept of cloud. This blog walks through the basics of cloud architecture, the necessity and how it is implemented in the modern day.</div>
+              <a href="blogs/should_you_learn_ai.html" class="subheader-text project-title">Is AI about to take over the world</a>
+              <div class="body-text project-card-text">
+                Worried about missing the AI train? Want to know what all the hype is about? Read more...
+              </div>
+              <div class="body-text project-card-text project-card-footer">
+                <i>11/12/2023</i>
+              </div>
             </div>
-            <a class="button" href="./blogs/meaning-of-cloud.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-		<div class="project-card">
-            <img src="./assets/images/server.jpg" class="project-image">
-            <div class="project-card-text-container">
-              <div class="subheader-text project-title">Introduction to virtualization</div>
-              <div class="body-text project-card-text">Here I talk about the basics of virtualization and hypervisors.</div>
-            </div>
-            <a class="button" href="./blogs/introduction_to_virtualization.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
           </div>
           <div class="project-card">
-            <img src="./assets/images/code.jpeg" class="project-image">
+            <img
+              src="./assets/images/cloud-asset-low.jpg"
+              class="project-image"
+            />
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">QEMU Basics</div>
-              <div class="body-text project-card-text">This blog helps you understand the different components of QEMU and how QEMU can be used to create and manage virtual machines.</div>
+              <a href="blogs/meaning-of-cloud.html" class="subheader-text project-title">Meaning of Cloud                       </a>
+              <div class="body-text project-card-text">
+                De mistifying the concept of cloud. This blog walks through the
+                basics of cloud architecture, the necessity and how it is
+                implemented in the modern day.
+              </div>
+              <div class="body-text project-card-text project-card-footer">
+                <i>11/12/2023</i>
+              </div>
             </div>
-            <a class="button" href="./blogs/qemu_basics.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/server.jpg" class="project-image" />
+            <div class="project-card-text-container">
+              <a href="blogs/introduction_to_virtualization.html" class="subheader-text project-title">Introduction to virtualization</a> 
+              <div class="body-text project-card-text">
+                Here I talk about the basics of virtualization and hypervisors.
+              </div>
+              <div class="body-text project-card-text project-card-footer">
+                <i>11/12/2023</i>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/code.jpeg" class="project-image" />
+            <div class="project-card-text-container">
+              <a href="blogs/qemu_basics.html" class="subheader-text project-title">QEMU Basics</a>
+              <div class="body-text project-card-text">
+                This blog helps you understand the different components of QEMU
+                and how QEMU can be used to create and manage virtual machines.
+              </div>
+              <div class="body-text project-card-text project-card-footer">
+                <i> 11/12/2023</i>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-	  
-	  <!-- PROJECTS / MY WORK SECTION -->
+
+      <!-- PROJECTS / MY WORK SECTION -->
       <div id="my-project-section">
         <span class="subheader-text">My Projects</span>
 
         <div class="projects-container">
           <div class="project-card">
-            <img src="./assets/images/library.jpg" class="project-image">
+            <!-- <a
+              class="project-card-link"
+              href="./blogs/meaning-of-cloud.html"
+            ></a> -->
+            <img src="./assets/images/library.jpg" class="project-image" />
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Digital Library Issue server</div>
-              <div class="body-text project-card-text">Issue server is a React + Django web application developed for the Digital Library of NIT Calicut. It helps Library administrators keep track of the book inventory and integrates with Koha - an open source Library Management system.</div>
+              <a href="project-pages/project-template.html" class="subheader-text project-title">
+                Digital Library Issue server
+              </a>
+              <div class="body-text project-card-text">
+                Issue server is a React + Django web application developed for
+                the Digital Library of NIT Calicut. It helps Library
+                administrators keep track of the book inventory and integrates
+                with Koha - an open source Library Management system.
+              </div>
+              <div class="body-text project-card-text project-card-footer">
+                <i>11/12/2023</i>
+              </div>
             </div>
-            <a class="button" href="./blogs/meaning-of-cloud.html">
-              <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
           </div>
+        </div>
+      </div>
     </div>
-	</div>
-	
+
     <!-- FOOTER -->
     <div id="footer">
-		 <div class="body-text project-card-text">Thanks to @ndoherty-xyz for the website template.</div>
-      <a class="icon-link" target="_blank" href="https://instagram.com/_.a.s.w.i.n_u.n.n.i._?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
-        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
+      <div class="body-text project-card-text">
+        Inspired from <a style="text-decoration: none; color: black;" href=""> @ndoherty-xyz's</a> website template.
+      </div>
+      <a
+        class="icon-link"
+        target="_blank"
+        href="https://instagram.com/_.a.s.w.i.n_u.n.n.i._?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
+      >
+        <img src="./assets/icons/instagram.svg" class="footer-icon" />
       </a>
-      <a class="icon-link" target="_blank" href="https://twitter.com/aswin_unni01">
-        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
+      <a
+        class="icon-link"
+        target="_blank"
+        href="https://twitter.com/aswin_unni01"
+      >
+        <img src="./assets/icons/twitter.svg" class="footer-icon" />
       </a>
       <a class="icon-link" href="mailto:aswinunni01@gmail.com">
-        <image src="./assets/icons/mail.svg" class="footer-icon"/>
+        <img src="./assets/icons/mail.svg" class="footer-icon" />
       </a>
-	<a class="icon-link" href="https://www.linkedin.com/in/aswinunni">
-        <image src="./assets/icons/linkedin.svg" class="footer-icon"/>
+      <a class="icon-link" href="https://www.linkedin.com/in/aswinunni">
+        <img src="./assets/icons/linkedin-full.svg" class="footer-icon" />
       </a>
-	  </div>
-
-	</body>
+    </div>
+  </body>
 </html>
