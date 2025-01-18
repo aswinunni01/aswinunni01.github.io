@@ -1,3 +1,21 @@
+/* Properties */
+:where(body) {
+  --background-color: white;
+  --text-color: black;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :where(body) {
+    --background-color: black;
+    --text-color: hsla(0 0 100 0.86);
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -93,16 +111,18 @@ body {
   flex-wrap: wrap;
 }
 
+
 /* Project Cards */
 .project-card {
   max-width: calc((100% - 32px) / 3);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   display: flex;
   flex-direction: column;
   align-content: space-around;
   justify-content: space-between;
   gap: 34px;
 }
+
+
 
 .project-card-link {
   position: absolute;

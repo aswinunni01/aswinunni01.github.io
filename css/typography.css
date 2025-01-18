@@ -1,3 +1,21 @@
+/* Properties */
+:where(body) {
+  --background-color: white;
+  --text-color: black;
+}
+
+body {
+  background-color: white;
+  color: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :where(body) {
+    --background-color: black;
+    --text-color: hsla(0 0 100 0.86);
+  }
+}
+
 body {
   font-family: NonBreakingSpaceOverride, "Hoefler Text", "Noto Serif", Garamond, "Times New Roman", serif;
   line-height: 25px;
@@ -16,7 +34,7 @@ body {
 
 .nav-hamburger-links a {
   text-decoration: none;
-  color: black
+  color: var(--text-color)
 }
 
 .nav-hamburger-links a:hover {
@@ -71,7 +89,7 @@ body {
 
 .project-title {
   text-decoration: none;
-  color: black;
+  color: var(--text-color);
   overflow: hidden;
   margin: 10px;
   margin-top: 0px;

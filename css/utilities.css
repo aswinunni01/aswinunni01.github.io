@@ -1,4 +1,21 @@
 
+
+/* Properties */
+:where(body) {
+  --background-color: white;
+  --text-color: black;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :where(body) {
+    --background-color: black;
+    --text-color: white;
+  }
+}
 /* Icons */
 
 .right-arrow-icon {
@@ -10,6 +27,7 @@
   width: 16px;
   height: 16px;
   margin-top: 1px;
+  color: white;
 }
 
 .footer-icon {
@@ -48,13 +66,29 @@ a.icon-link:hover {
   display: inline-block;
   cursor: pointer;
 }
+
+:where(.nav-hamburger-bar-1, .nav-hamburger-bar-2, .nav-hamburger-bar-3) {
+  background-color: #333;
+}
+
 .nav-hamburger-bar-1, .nav-hamburger-bar-2, .nav-hamburger-bar-3 {
   width: 35px;
   height: 5px;
-  background-color: #333;
+  /* background-color: #333; */
   margin: 6px 0;
   transition: 0.4s;
 }
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  :where(.nav-hamburger-bar-1, .nav-hamburger-bar-2, .nav-hamburger-bar-3) {
+      background-color: var(--text-color);
+  }
+}
+
+
+
+
 
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
@@ -96,7 +130,7 @@ a.icon-link:hover {
 
 
 .nav-title-link {
-  color: black;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -115,13 +149,16 @@ a.icon-link:hover {
   } */
 }
 
+:where(.button, a.button) {
+  --button-border: 3px solid #141414;
+}
 
 /* Button Styling */
 .button {
   padding: 8px 16px;
-  border: 3px solid #141414;
+  border: var(--button-border);
   border-radius: 50px;
-  color: black;
+  color: var(--text-color);
   text-decoration: none;
   width: fit-content;
   display: flex;
@@ -129,6 +166,16 @@ a.icon-link:hover {
   align-items: center;
   background: none;
 }
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  :where(.button, a.button) {
+      --button-border: 3px solid var(--text-color);
+  }
+}
+
+
+
 .button:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
@@ -136,9 +183,8 @@ a.icon-link:hover {
 }
 a.button {
   padding: 8px 16px;
-  border: 3px solid #141414;
   border-radius: 50px;
-  color: black;
+  color: var(--text-color);
   text-decoration: none;
   width: fit-content;
   display: flex;
@@ -152,19 +198,35 @@ a.button:hover {
   cursor: pointer;
 }
 
+:where(.project-card) {
+  --card-shadow-light: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --card-shadow-dark: none;
+  --card-bg-dark: #292929;
+  --card-hover-color: rgba(227, 227, 227, 0.598);
+
+}
+
 .project-card {
   transition: all .5s ease;
 }
 
 .project-card:hover {
-  background-color: rgba(227, 227, 227, 0.598);
   transform: translate3D(0,-1px,0) scale(1.03);
-  transition: all .6s ease;
 }
 
 .project-card:hover .project-title {
   text-decoration: underline;
 }
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  :where(.project-card, .project-card:hover) {
+      background-color: var(--card-bg-dark);
+      box-shadow: var(--card-shadow-dark);
+      
+  }
+}
+
 
 
 
@@ -189,7 +251,7 @@ a.button:hover {
 /* Link Styling */
 a.no-underline {
   text-decoration: none;
-  color: black
+  color: var(--text-color)
 }
 
 a.no-underline:hover {
@@ -197,9 +259,12 @@ a.no-underline:hover {
   cursor: pointer;
 }
 
-#scrollbtn:hover img {
-  transform: translate3D(0, -1px, 0) scale(1.03);
-  transition: all 0.2s ease;
+#scrollbtn svg {
+  transition: all 0.6s ease;
+}
+#scrollbtn:hover svg {
+  transform: translate3D(0, -1px, 0) scale(1.6);
+  
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
