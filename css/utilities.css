@@ -56,6 +56,18 @@ a.icon-link:hover {
   transition: 0.4s;
 }
 
+
+/* Small devices (portrait tablets and large phones, 800px and below) */
+@media only screen and (max-width: 800px) {
+
+  .nav-hamburger-bar-1, .nav-hamburger-bar-2, .nav-hamburger-bar-3 {
+    width: 30px;
+    height: 4px;
+    margin: 4px 0;
+  }
+}
+
+
 /* Rotate first bar */
 .change .nav-hamburger-bar-1 {
   transform: translate(0, 11px) rotate(-45deg);
@@ -165,7 +177,6 @@ a.button:hover {
   padding: 30px 50px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 }
 
 #footer .social-links {
@@ -193,6 +204,12 @@ a.no-underline:hover {
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
+
+  a.button {
+    padding: 4px 8px;
+    
+  }
+
   #footer {
     padding: 20px 20px;
   }
