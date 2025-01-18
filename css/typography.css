@@ -71,6 +71,7 @@ body {
 
 .project-title {
   text-decoration: none;
+  font-size: 24px;
   color: black;
   overflow: hidden;
   margin: 10px;
