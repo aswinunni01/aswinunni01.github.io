@@ -197,9 +197,12 @@ a.no-underline:hover {
   cursor: pointer;
 }
 
-#scrollbtn:hover img {
-  transform: translate3D(0, -1px, 0) scale(1.03);
-  transition: all 0.2s ease;
+#scrollbtn svg {
+  transition: all 0.4s ease;
+}
+
+#scrollbtn:hover svg {
+  transform: translate3D(0, -1px, 0) scale(1.5);
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
