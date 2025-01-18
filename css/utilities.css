@@ -36,6 +36,7 @@ a.icon-link:hover {
   padding: 30px 50px;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   align-items: center;
   position: fixed;
   top: 0;
@@ -97,6 +98,9 @@ a.icon-link:hover {
     padding: 20px 20px;
     background-color: white
   }
+  /* .nav-hamburger {
+    padding: 3px;
+  } */
 }
 
 
@@ -157,10 +161,18 @@ a.button:hover {
 #footer {
   width: 100%;
   display: flex;
+  flex-direction: column;
   padding: 30px 50px;
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+
+#footer .social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
 }
 
 /* Link Styling */
@@ -172,6 +184,11 @@ a.no-underline {
 a.no-underline:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+#scrollbtn:hover img {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  transition: all 0.2s ease;
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */

@@ -11,11 +11,13 @@ blog_buttons.forEach((button) => {
 let project_buttons = document.querySelectorAll(".my-project-link");
 project_buttons.forEach((button) => {
   button.addEventListener("click", () => {
+    console.log("HERERE")
     document
       .getElementById("my-project-section")
       .scrollIntoView({ behavior: "smooth" });
   });
 });
+
 
 addEventListener("scroll", (event) => {
   document.getElementById("navbar").style.opacity =
@@ -29,9 +31,11 @@ addEventListener("scroll", (event) => {
   }
 });
 
+
+// Display scrollToTop button on scrolling down
 let mybutton = document.getElementById("scrollbtn");
 addEventListener("scroll", (event) => {
-  mybutton.style.display = "block";
+  mybutton.style.display = document.documentElement.scrollTop === 0 ?  "none" : "block"
   document.getElementById("scrollbtn").style.opacity =
     document.documentElement.scrollTop / 400;
 });
@@ -40,6 +44,8 @@ function topFunction() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
+
+// NavHamburger toggle logic
 function navHamburger(x) {
   x.classList.toggle("change");
   var dropdown = document.querySelector(".nav-hamburger-links");
