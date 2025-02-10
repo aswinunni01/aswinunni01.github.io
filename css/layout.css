@@ -81,6 +81,7 @@ body {
   gap: 16px;
   scroll-margin: 40px;
 }
+
 #my-project-section {
   display: flex;
   flex-direction: column;
