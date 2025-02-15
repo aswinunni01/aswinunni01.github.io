@@ -64,11 +64,13 @@
             - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
-        <div class="main-title">Project Name</div>
+        <div class="main-title">How to run VMs on your macbook</div>
         <div class="body-text">
-          A small description about the project goes here, get the reader hooked
-          on the project and tell them why they should continue to read this
-          page. Give it a sweet tagline.
+          As part of my work, I deal with a lot of complex scenarios involving
+          virtual machines. I also might need to write and experiment with code
+          on actual linux systems, and having a local setup linux VM comes in
+          handy. In this blog, I will talk you through how to setup a ubuntu VM
+          on MacOS with UTM.
         </div>
         <img class="project-header-image" src="../assets/images/desktop.jpeg" />
       </div>
@@ -81,28 +83,71 @@
         - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
       -->
       <div id="project-details">
-        <div class="subheader-text">Project Details / Background</div>
+        <div class="subheader-text">Pre requisites</div>
         <div class="project-details-content">
           <div class="body-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Tristique risus nec feugiat in fermentum. Sed id semper risus in
-            hendrerit gravida. Placerat duis ultricies lacus sed. Id neque
-            aliquam vestibulum morbi blandit cursus risus. Elit pellentesque
-            habitant morbi tristique senectus et netus et. Elementum tempus
-            egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel
-            pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel
-            elit.
+            First, download and install UTM for macos :
+            <a href="https://mac.getutm.app/">https://mac.getutm.app/</a>
           </div>
           <div class="body-text">
-            Vitae justo eget magna fermentum. Imperdiet nulla malesuada
-            pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet.
-            Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis
-            aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat
-            vivamus at augue. Platea dictumst vestibulum rhoncus est
-            pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat.
-            Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam
-            vulputate ut.
+            Once installed, you need an ubuntu ISO image compatible with M1
+            macs. I like to use ubuntu 20.04 arm version which you can find
+            <a href="https://cdimage.ubuntu.com/releases/focal/release/">here</a
+            >. <br />
+            Download ubuntu-20.04.5-live-server-arm64.iso
+          </div>
+        </div>
+      </div>
+
+      <div id="project-details">
+        <div class="subheader-text">Creating the VM</div>
+        <div class="project-details-content">
+          <div class="body-text">
+            Once the ISO image is downloaded, you need to boot a VM from the
+            image, and install the OS into a boot drive.
+           
+          </div>
+          <div class="gallery-image-container half-width">
+            <img src="../assets/images/macbook-virt/UTM-CreateVM.png" class="gallery-image" />
+            <span class="image-caption"
+              >Give your image a caption. People love context.</span
+            >
+          </div>
+          <div class="body-text">
+            Use the virtualize option if your image is arm64 type.
+            <div class="gallery-image-container half-width">
+                <img src="../assets/images/macbook-virt/UTM-Virtualize.png" class="gallery-image" />
+                <span class="image-caption"
+                  >Give your image a caption. People love context.</span
+                >
+              </div>
+          </div>
+          <div class="body-text">
+            You know what to choose. If you don't you're not supposed to be here :)
+            <div class="gallery-image-container half-width">
+                <img src="../assets/images/macbook-virt/UTM-ChooseOs.png" class="gallery-image" />
+                <span class="image-caption"
+                  >Give your image a caption. People love context.</span
+                >
+              </div>
+          </div>
+          <div class="body-text">
+            You need to boot using an ISO image. Browse to the iso file you just downloaded
+            <div class="gallery-image-container half-width">
+                <img src="../assets/images/macbook-virt/UTM-SelectIso.png" class="gallery-image" />
+                <span class="image-caption"
+                  >Give your image a caption. People love context.</span
+                >
+              </div>
+          </div>
+          <div class="body-text">
+            Keep the remaining settings at default for now. You can change it later when you are more comfortable.
+            <div class="gallery-image-container half-width">
+                <img src="../assets/images/macbook-virt/UTM-SelectIso.png" class="gallery-image" />
+                <span class="image-caption"
+                  >Give your image a caption. People love context.</span
+                >
+              </div>
           </div>
         </div>
       </div>
